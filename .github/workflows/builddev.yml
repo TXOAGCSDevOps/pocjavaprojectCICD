@@ -3,6 +3,9 @@ name: Build Java Application - Development
 on:
   repository_dispatch:
     types: [dev]
+  push:
+    branches:
+    - master
 
 jobs:
   build:
