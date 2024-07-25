@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: oag-runner
+    runs-on: oag_runner
 
     steps:
       - name: Checkout Java Code
