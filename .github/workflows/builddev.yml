@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: oag-runner
 
     steps:
       - name: Checkout Java Code
