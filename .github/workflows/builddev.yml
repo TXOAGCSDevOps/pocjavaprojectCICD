@@ -15,7 +15,7 @@ jobs:
       - name: Checkout Java Code
         uses: actions/checkout@v2
         with:
-          repository: atdevsecops/pocjavaproject
+          repository: pocjavaproject
           ref: develop
           token: ${{ secrets.SECRET_TOKEN }}
 
