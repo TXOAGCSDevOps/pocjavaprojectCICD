@@ -40,7 +40,7 @@ jobs:
 
       - name: Configure JFrog CLI
         env:
-          JFROG_URL: ${{ secrets.JFROG_URL }}
+          JFROG_URL: ${{ env.JFROG_URL }}
           JFROG_USER: ${{ secrets.JFROG_USER }}
           JFROG_PASSWORD: ${{ secrets.JFROG_PASSWORD }}
         run: |
